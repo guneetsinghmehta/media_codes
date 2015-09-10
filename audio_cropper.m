@@ -5,7 +5,7 @@ function [ player,output] = audio_cropper( input_args )
 % step 4 = enter the sampling rate and save the output formate
 % step 5 = save the file as a new song
 % step 6 = give option of changing the Fs while playing
-%
+% hello heloo
     [filename,pathname,filterindex]=uigetfile({'*.mp3';'*.flv'},'Select audio','MultiSelect','off'); 
     [A,Fs]=audioread([pathname filename]);
     A_size=size(A,1);
